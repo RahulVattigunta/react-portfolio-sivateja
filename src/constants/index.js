@@ -1,8 +1,9 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/projecy-2.png";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
-import project5 from "../assets/projects/project-5.jpg";
+import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
+import project6 from "../assets/projects/project-6.png";
 
 export const HERO_CONTENT = `Data Engineer & Analytics Specialist with 4+ years of experience in designing and optimizing large-scale data pipelines across diverse cloud platforms (AWS, Azure, GCP). Skilled in building scalable data solutions using Hadoop, Spark, Kafka, AWS Glue, Redshift, and Snowflake. Proficient in Python, SQL, and Java for distributed computing and ETL/ELT pipeline optimization. Adept at implementing machine learning models, automating workflows, and enabling real-time data processing to drive data-driven solutions. Passionate about leveraging technology to solve complex data challenges and deliver actionable insights that enhance business decision-making.`;
 
@@ -70,8 +71,8 @@ export const PROJECTS = [
     technologies: ["AWS Cloud", "PySpark", "Big Data Analytics", "Data Engineering "],
   },
   {
-    title: "Spotify Project",
-    image: project5,
+    title: "Automated ETL Pipeline for Retail Sales",
+    image: project6,
     description:
       "An ELT pipeline was built for a retail company to process POS transactions, inventory updates, and customer behavior data. Snowflake was used for cloud data warehousing, with optimizations like materialized views and clustering to enhance query performance. Apache Airflow automated workflows, reducing data latency by 60%. Dashboards were developed in Tableau for sales forecasting, product demand analysis, and customer segmentation.",
     technologies: ["Snowflake", "Apache Airflow", "dbt", "Tableau "],
