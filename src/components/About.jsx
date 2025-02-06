@@ -1,4 +1,4 @@
-import aboutImg from "../../assets/ab.png"; import profilePic from "../../assets/profilepic.png"; // if inside 'src/assets'
+import aboutImg from "../../assets/ab.png";
 import { ABOUT_TEXT } from "../constants";
 import {motion} from "framer-motion";
 
