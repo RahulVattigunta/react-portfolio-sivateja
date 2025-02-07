@@ -15,7 +15,7 @@ export const EXPERIENCES = [
     role: "Data Engineer",
     company: "Progressive Insurance",
     description: `Designed and implemented end-to-end data pipelines using AWS Lambda and Snowflake, optimizing data movement and storage for scalability and performance. Developed and automated ETL processes with AWS Glue and Python scripts, improving data transformation and reporting efficiency. Ensured data integrity, security, and compliance while integrating internal and external data sources via AWS services. Optimized SQL queries for faster performance and applied debugging techniques to resolve data-related issues, enhancing system reliability.`,
-    technologies: ["ETL", "Cloud", "DBMS", "Python", "Hadoop", "ML"],
+    technologies: ["ETL", "Cloud", "DBMS", "Python"],
   },
   {
     year: "Sep 2021 - Dec 2022",
@@ -40,7 +40,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "I analyzed the impact of weather on accident severity in NYC using the Motor Vehicle Collisions dataset and found that bad weather, high traffic, and peak hours increase accident severity. I employed Logistic Regression and Random Forest models for prediction, with Random Forest delivering better results. The analysis involved data preprocessing, including cleaning, imputation, and feature engineering, leading to actionable insights for improving traffic safety and management. I also conducted a comprehensive analysis of pharmacy wholesale data from 2007 to 2010, utilizing advanced data visualization techniques such as line, radar, funnel, pie, and cluster charts to identify key trends. This helped optimize order profitability and led to recommendations for top-performing drugs and markets to improve business strategies.",
-    technologies: ["Data Integration", "Logistic Regression", "Random Forest", "Data Visualization"],
+    technologies: ["Data Integration", "Logistic Regression", "Random Forest","Hadoop", "ML"],
   },
   {
     title: "Lay-Offs Analysis",
