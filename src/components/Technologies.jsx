@@ -15,6 +15,12 @@ import { BiLogoPostgresql } from "react-icons/bi";
 import { motion } from "framer-motion";
 import { FaSnowflake } from "react-icons/fa";
 import { SiAwslambda } from "react-icons/si";
+import { TbBrandAzure } from "react-icons/tb";
+import { SiSplunk } from "react-icons/si";
+import { SiInformatica } from "react-icons/si";
+import { SiApachenifi } from "react-icons/si";
+import { SiTableau } from "react-icons/si";
+import { FaMicrosoft } from "react-icons/fa6";
 
 const iconVariants= (duration) => ({
     initial: {y: -10},
@@ -149,11 +155,53 @@ const Technologies = () => {
         className="rounded-2xl border-4 border-neutral-800 p-4">
             <SiAwslambda className="text-7xl text-sky-500" />
         </motion.div>
-        
+        <motion.div 
+        variants={iconVariants(7.5)}
+        initial="initial"
+        animate="animate"
+        className="rounded-2xl border-4 border-neutral-800 p-4">
+            <TbBrandAzure className="text-7xl " />
+        </motion.div>
+        <motion.div 
+        variants={iconVariants(3.5)}
+        initial="initial"
+        animate="animate"
+        className="rounded-2xl border-4 border-neutral-800 p-4">
+            <SiSplunk className="text-7xl text-green-400" />
+        </motion.div>
+        <motion.div 
+        variants={iconVariants(3.5)}
+        initial="initial"
+        animate="animate"
+        className="rounded-2xl border-4 border-neutral-800 p-4">
+            <SiInformatica className="text-7xl text-green-400" />
+        </motion.div>
+        <motion.div 
+        variants={iconVariants(7.5)}
+        initial="initial"
+        animate="animate"
+        className="rounded-2xl border-4 border-neutral-800 p-4">
+            <SiApachenifi className="text-7xl " />
+        </motion.div>
+        <motion.div 
+        variants={iconVariants(3.5)}
+        initial="initial"
+        animate="animate"
+        className="rounded-2xl border-4 border-neutral-800 p-4">
+            <SiTableau className="text-7xl text-green-400" />
+        </motion.div>
+        <motion.div 
+        variants={iconVariants(6.5)}
+        initial="initial"
+        animate="animate"
+        className="rounded-2xl border-4 border-neutral-800 p-4">
+            <FaMicrosoft className="text-7xl text-green-400" />
+        </motion.div>
 
     </motion.div>
     </div>
   );
 };
+
 
 export default Technologies;

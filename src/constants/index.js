@@ -15,7 +15,7 @@ export const EXPERIENCES = [
     role: "Data Engineer",
     company: "Progressive Insurance",
     description: `Designed and implemented end-to-end data pipelines using AWS Lambda and Snowflake, optimizing data movement and storage for scalability and performance. Developed and automated ETL processes with AWS Glue and Python scripts, improving data transformation and reporting efficiency. Ensured data integrity, security, and compliance while integrating internal and external data sources via AWS services. Optimized SQL queries for faster performance and applied debugging techniques to resolve data-related issues, enhancing system reliability.`,
-    technologies: ["ETL", "Cloud", "DBMS", "Python"],
+    technologies: ["ETL", "Cloud", "DBMS", "Python", "Hadoop", "ML"],
   },
   {
     year: "Sep 2021 - Dec 2022",
@@ -75,7 +75,7 @@ export const PROJECTS = [
     image: project6,
     description:
       "An ELT pipeline was built for a retail company to process POS transactions, inventory updates, and customer behavior data. Snowflake was used for cloud data warehousing, with optimizations like materialized views and clustering to enhance query performance. Apache Airflow automated workflows, reducing data latency by 60%. Dashboards were developed in Tableau for sales forecasting, product demand analysis, and customer segmentation.",
-    technologies: ["Snowflake", "Apache Airflow", "dbt", "Tableau "],
+    technologies: ["Snowflake", "Apache Airflow", "dbt", "Tableau", "AWS S3"],
   },
 ];
 
